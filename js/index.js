@@ -12,13 +12,15 @@ myNumber + 10;
 console.log(myNumber);
 const myNull = null;
 console.log(myNull);
-// const newMessage = "Введіть своє ім'я"
-// prompt(newMessage);
-// alert(newMessage);
-// console.log(newMessage);
-// console.log(typeof newMessage);
+const newMessage = "Введіть своє ім'я"
+prompt(newMessage);
+alert(newMessage);
+console.log(newMessage);
+console.log(typeof newMessage);
 const message = "Ви дійсно хочете покинути сторінку?";
 const isConfirmed = confirm(message);
 console.log(isConfirmed);
 const warningMessage = "Увага! Дія може бути небезпечною.";
-alert()
+alert(warningMessage);
+const confirmedMessage = "Ви впевнені, що хочете продовжити?";
+const isConfirm = confirm(confirmedMessage);
